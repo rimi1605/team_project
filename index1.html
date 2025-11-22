@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @charset "utf-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul,ol,li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        .cont3{
+            width: 1300px;
+            height: 433px;
+            margin: 0 auto;
+        }
+        .cont3 .main{
+            width: 392px;
+            height: 392px;
+            border-radius: 50%;
+            background: url(./image/cont3_cake_main.png) no-repeat center/392px 392px;
+            position: relative;
+            overflow: hidden;
+            margin: 0 109px 60px;
+            float: left;
+        }
+        .cont3 .main a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.3);
+            line-height: 392px;
+            text-align: center;
+            color: #e5e7eb;
+            font-size: 18px;
+            opacity: 0;
+            transition: all .5s;
+        }
+        .cont3 .main:hover a{
+            opacity: 1;
+        }
+        .cont3 .right{
+            float: right;
+            text-align: center;
+        }
+        .cont3 .right .title dt{
+            color: #80301b;
+            font-size: 26px;
+            font-weight: 800;
+        }
+        .cont3 .right .title dd{
+            color: #363636;
+            font-size: 14px;
+            margin: 24px 0 40px;
+        }
+        .cont3 .right .slideWrap{
+            width: 610px;
+            height: 340px;
+            overflow: hidden;
+        }
+        .cont3.cont3 .right .slide{
+            width: 1220px;
+        }
+        @keyframes slide{
+            0%{}
+        }
+        .cont3 .right .slide li{
+            width: 189px;
+            height: 281px;
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .cont3 .right .slide li>a>img{
+            width: 187px;
+            height: 187px;
+            border: 1px solid #ddd;
+        }
+        .cont3 .right .slide li dt{
+            color: #363636;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+        .cont3 .right .slide li dd{
+            font-size: 15px;
+            color: #b27c69;
+            margin-bottom: 10px;
+        }
+        .cont3 .right .slide .btn>img{
+            width: 43px;
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont3">
+        <div class="left">
+            <div class="main">
+                <a href="#">More Products</a>
+              </div>
+        </div>
+        <div class="right">
+            <div class="title">
+                <dl>
+                    <dt>premium cake collection</dt>
+                    <dd>시즌에 따라 각양각색의 다양한 크기와 옷을 입는 패션5의 특별한 케이크를 만나보세요.</dd>
+                </dl>
+            </div>
+            <div class="slideWrap">
+                <div class="slide">
+                    <ul class="slide_1">
+                        <li>
+                            <a href="#">
+                                <img src="./image/cont3_cake_slide1.jpg" alt="slide">
+                                <dl>
+                                    <dt>[특별제작] 치즈밭 딸기숲(4호)</dt>
+                                    <dd>260,000원</dd>
+                                </dl>
+                                <div class="btn">
+                                    <img src="./image/best_btn.png" alt="best">
+                                    <img src="./image/hot_btn.png" alt="hot">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/cont3_cake_slide2.jpg" alt="slide">
+                                <dl>
+                                    <dt>상큼한 레몬 한 알</dt>
+                                    <dd>16,000원</dd>
+                                </dl>
+                                <div class="btn">
+                                    <img src="./image/hot_btn.png" alt="hot">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/cont3_cake_slide3.png" alt="slide">
+                                <dl>
+                                    <dt>사랑이 피어난 꽃동산</dt>
+                                    <dd>18,000원</dd>
+                                </dl>
+                                <div class="btn">
+                                    <img src="./image/hot_btn.png" alt="hot">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="slide_2">
+                        <li>
+                            <a href="#">
+                                <img src="./image/cont3_cake_slide4.jpg" alt="slide">
+                                <dl>
+                                    <dt>러블리 화이트 바니</dt>
+                                    <dd>22,000원</dd>
+                                </dl>
+                                <div class="btn">
+                                    <img src="./image/hot_btn.png" alt="hot">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/cont3_cake_slide5.jpg" alt="slide">
+                                <dl>
+                                    <dt>러블리 브라운 베어</dt>
+                                    <dd>22,000원</dd>
+                                </dl>
+                                <div class="btn">
+                                    <img src="./image/best_btn.png" alt="best">
+                                    <img src="./image/hot_btn.png" alt="hot">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/cont3_cake_slide6.jpg" alt="slide">
+                                <dl>
+                                    <dt>서클 초콜릿 세트 (4EA)</dt>
+                                    <dd>18,000원</dd>
+                                </dl>
+                                <div class="btn">
+                                    <img src="./image/best_btn.png" alt="best">
+                                    <img src="./image/hot_btn.png" alt="hot">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
